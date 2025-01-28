@@ -9,7 +9,6 @@ Code License Model License
 📥 Model Download | ⚡ Quick Start | 📜 License | 📖 Citation
 📄 Paper Link | 📄 Arxiv Paper Link | 👁️ Demo
 
-! Deepseek-VL2_paper.pdf
 # 1. Introduction
 Introducing DeepSeek-VL2, an advanced series of large Mixture-of-Experts (MoE) Vision-Language Models that significantly improves upon its predecessor, DeepSeek-VL. DeepSeek-VL2 demonstrates superior capabilities across various tasks, including but not limited to visual question answering, optical character recognition, document/table/chart understanding, and visual grounding. Our model series is composed of three variants: DeepSeek-VL2-Tiny, DeepSeek-VL2-Small and DeepSeek-VL2, with 1.0B, 2.8B and 4.5B activated parameters respectively. DeepSeek-VL2 achieves competitive or state-of-the-art performance with similar or fewer activated parameters compared to existing open-source dense and MoE-based models.
 
@@ -27,30 +26,25 @@ Zhiyu Wu*, Xiaokang Chen*, Zizheng Pan*, Xingchao Liu*, Wen Liu**, Damai Dai, Hu
 
 ✅ 2024-12-13: DeepSeek-VL2 family released, including DeepSeek-VL2-tiny, DeepSeek-VL2-small, DeepSeek-VL2.
 
-# 3. Model Download
+# 3. Model Download 
    
 We release the DeepSeek-VL2 family, including DeepSeek-VL2-tiny, DeepSeek-VL2-small, DeepSeek-VL2. To support a broader and more diverse range of research within both academic and commercial communities. Please note that the use of this model is subject to the terms outlined in License section.
 
-Huggingface
+# Hugging face model
 Model	Sequence Length	Download
 DeepSeek-VL2-tiny	4096	🤗 Hugging Face
 DeepSeek-VL2-small	4096	🤗 Hugging Face
 DeepSeek-VL2	4096	🤗 Hugging Face
 # 4. Quick Start
 
-Installation
+# Installation
 On the basis of Python >= 3.8 environment, install the necessary dependencies by running the following command:
 
 pip install -e .
-Simple Inference Example with One Image
+# Simple Inference Example with One Image
 Note: You may need 80GB GPU memory to run this script with deepseek-vl2-small and even larger for deepseek-vl2.
 
-import torch
-from transformers import AutoModelForCausalLM
-
-from deepseek_vl2.models import DeepseekVLV2Processor, DeepseekVLV2ForCausalLM
-from deepseek_vl2.utils.io import load_pil_images
-
+pip install -e .
 
 # specify the path to the model
 model_path = "deepseek-ai/deepseek-vl2-tiny"
