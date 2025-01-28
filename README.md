@@ -28,7 +28,7 @@ Zhiyu Wu*, Xiaokang Chen*, Zizheng Pan*, Xingchao Liu*, Wen Liu**, Damai Dai, Hu
 
 # 3. Model Download 
    
-We release the DeepSeek-VL2 family, including DeepSeek-VL2-tiny, DeepSeek-VL2-small, DeepSeek-VL2. To support a broader and more diverse range of research within both academic and commercial communities. Please note that the use of this model is subject to the terms outlined in License section.
+We release the DeepSeek-VL2 family, including DeepSeek-VL2-tiny, DeepSeek-VL2-small, DeepSeek-VL2. To support a broader and more diverse range of research within both academic and commercial communities. Please note that the use of this model is subject to the terms outlined in __License section__
 
 # Hugging face model
 Model	Sequence Length	Download
